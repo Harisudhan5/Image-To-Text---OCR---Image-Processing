@@ -1,6 +1,6 @@
 # OCR Image-to-Text 
 
-## Pyteseeract and Paddle OCR approach
+## Used Pyteseeract and Paddle OCR 
 
 ## Overview
 
