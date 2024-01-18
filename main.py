@@ -1,5 +1,4 @@
 import streamlit as st
-from paddleocr import PaddleOCR
 from PIL import Image
 import fitz 
 import os
