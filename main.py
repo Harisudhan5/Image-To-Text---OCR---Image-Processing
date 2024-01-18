@@ -12,8 +12,7 @@ def extract_text_from_image(image):
     if len(img_array.shape) == 2:
         img_gray = img_array
     else:
-        # Convert the image to grayscale
-        img_gray = cv2.cvtColor(img_array, cv2.COLOR_BGR2GRAY)  # Convert Image to NumPy array
+        img_gray = cv2.cvtColor(img_array, cv2.COLOR_BGR2GRAY) 
     threshold_value = 200
     _, mask = cv2.threshold(img_gray, threshold_value, 255, cv2.THRESH_BINARY)
     img = cv2.bitwise_and(img_gray, mask)
