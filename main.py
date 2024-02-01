@@ -34,7 +34,7 @@ def extract_text_from_pdf(pdf_file):
     return text
 
 def main():
-    st.title("Online Text Exractor")
+    st.title("Text Exraction using OCR")
 
 
     uploaded_file = st.file_uploader("Choose a file to upload", type=["jpg", "jpeg", "png", "pdf"])
